@@ -1,0 +1,6 @@
+package dsnap;
+
+requires
+  rtl;
+
+end.

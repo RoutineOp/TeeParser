@@ -1,0 +1,28 @@
+package dbrtl;
+
+requires
+  rtl;
+
+contains
+DB,
+DBXpress,
+DSIntf,
+Midas,
+MidasCon,
+MidConst,
+SqlConst,
+SqlExpr,
+SqlTimSt,
+TConnect,
+DataBkr,
+Provider,
+recerror,
+SimpleDS,
+HTTPIntr,
+MConnect,
+MtsRdm,
+ObjBrkr,
+SConnect,
+ScktMain;
+
+end.

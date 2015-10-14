@@ -1,0 +1,6 @@
+package xmlrtl;
+
+requires
+  rtl;
+
+end.

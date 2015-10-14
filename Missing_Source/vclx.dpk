@@ -1,0 +1,6 @@
+package vclx;
+
+requires
+  vcl;
+
+end.

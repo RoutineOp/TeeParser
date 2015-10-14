@@ -1,0 +1,9 @@
+package vcljpg;
+
+requires
+  vcl;
+
+contains
+  jpeg;
+
+end.

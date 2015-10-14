@@ -1,0 +1,9 @@
+package designide;
+
+requires
+  rtl;
+
+contains
+  dsgnwnds;
+
+end.

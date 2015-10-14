@@ -1,0 +1,12 @@
+package adortl;
+
+requires
+  rtl,
+  dbrtl;
+
+contains
+  ADOConst,
+  ADODB,
+  ADOInt;
+
+end.

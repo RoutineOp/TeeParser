@@ -1,0 +1,12 @@
+package bdertl;
+
+requires
+  rtl;
+
+contains
+  bdeconst,
+  bdemts,
+  bde,
+  DbExcept;
+
+end.

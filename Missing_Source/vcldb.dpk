@@ -1,0 +1,30 @@
+package vcldb;
+
+requires
+  vcl, 
+  dbrtl,
+  bdertl;
+
+contains
+DBActns,
+dbcgrids,
+DBClient,
+DBClientActnRes,
+DBClientActns,
+DBCommon,
+DBConnAdmin,
+DBConsts,
+DBCtrls,
+DBExcept,
+DBLocal,
+DBLocalI,
+DBLogDlg,
+dblookup,
+DBOleCtl,
+DBPWDlg,
+  DBTables,
+  DBGrids,
+FMTBcd,
+VDBConsts;
+ 
+end.

@@ -1,0 +1,6 @@
+package dclado;
+
+requires
+  adortl;
+
+end.
