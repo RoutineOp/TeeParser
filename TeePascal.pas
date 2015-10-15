@@ -72,6 +72,7 @@ type
 
     class procedure Detect(const AList:TStrings);
     procedure GetPaths;
+    function HasScopes:Boolean;
     function RootDir:String;
   end;
 
@@ -2872,6 +2873,11 @@ begin
   for t:=0 to UserPaths.Count-1 do
       Paths.Add(UserPaths[t]);
   }
+end;
+
+function TIDE.HasScopes: Boolean;
+begin
+  result:=UnitScopes.Count>0;
 end;
 
 { TPascal }

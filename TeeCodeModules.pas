@@ -243,8 +243,11 @@ end;
 
 procedure TCodeModules.TreePackagesClick(Sender: TObject);
 begin
-  FillContains(TPackage(TreePackages.Selected.Data).PackageContains,LBUnits);
-  CBSectionChange(Self);
+  if TreePackages.Selected<>nil then
+  begin
+    FillContains(TPackage(TreePackages.Selected.Data).PackageContains,LBUnits);
+    CBSectionChange(Self);
+  end;
 end;
 
 class procedure TCodeModules.Edit(const AOwner: TComponent; const ALanguage:TLanguage);
